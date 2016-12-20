@@ -17,3 +17,7 @@ Use only `t2.micro` instance types.
 Don’t use more than four instances.
 
 For a request to be considered “successful” by the scoring system, it must complete in under 15 seconds.
+
+To test locally
+
+`FLASK_APP=imageapi.py FLASK_DEBUG=1 flask run --host=0.0.0.0`
